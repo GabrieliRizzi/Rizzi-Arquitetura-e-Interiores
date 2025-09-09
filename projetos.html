@@ -1,0 +1,203 @@
+<!-- projetos.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos - Gabrieli Rizzi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header (o mesmo de index.html) -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo">Gabrieli Rizzi</a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="sobre.html" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="servicos.html" class="nav-link">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="projetos.html" class="nav-link">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contato.html" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Página Projetos -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Projetos</h1>
+                <p>Conheça alguns dos meus trabalhos recentes</p>
+            </div>
+        </section>
+
+        <section class="filtros-projetos">
+            <div class="container">
+                <div class="filtros">
+                    <button class="filtro-btn active" data-filter="todos">Todos</button>
+                    <button class="filtro-btn" data-filter="residencial">Residencial</button>
+                    <button class="filtro-btn" data-filter="comercial">Comercial</button>
+                    <button class="filtro-btn" data-filter="consultoria">Consultoria</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="galeria-projetos">
+            <div class="container">
+                <div class="projetos-grid">
+                    <div class="projeto-item" data-categoria="residencial">
+                        <div class="projeto-img" style="background-image: url('img/projeto1.jpg');">
+                            <div class="projeto-overlay">
+                                <h3>Residência Auguste</h3>
+                                <p>Design contemporâneo</p>
+                                <a href="#" class="projeto-link">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="projeto-item" data-categoria="residencial">
+                        <div class="projeto-img" style="background-image: url('img/projeto2.jpg');">
+                            <div class="projeto-overlay">
+                                <h3>Apartamento Finále</h3>
+                                <p>Interiores elegantes</p>
+                                <a href="#" class="projeto-link">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="projeto-item" data-categoria="comercial">
+                        <div class="projeto-img" style="background-image: url('img/projeto3.jpg');">
+                            <div class="projeto-overlay">
+                                <h3>Comercial Magnette</h3>
+                                <p>Ambiente corporativo</p>
+                                <a href="#" class="projeto-link">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="projeto-item" data-categoria="comercial">
+                        <div class="projeto-img" style="background-image: url('img/projeto4.jpg');">
+                            <div class="projeto-overlay">
+                                <h3>Café Urban</h3>
+                                <p>Espaço aconchegante</p>
+                                <a href="#" class="projeto-link">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="projeto-item" data-categoria="consultoria">
+                        <div class="projeto-img" style="background-image: url('img/projeto5.jpg');">
+                            <div class="projeto-overlay">
+                                <h3>Consultoria Lar&Lar</h3>
+                                <p>Reforma e decoração</p>
+                                <a href="#" class="projeto-link">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="projeto-item" data-categoria="residencial">
+                        <div class="projeto-img" style="background-image: url('img/projeto6.jpg');">
+                            <div class="projeto-overlay">
+                                <h3>Casa Serra</h3>
+                                <p>Integração com a natureza</p>
+                                <a href="#" class="projeto-link">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="carrossel-projetos">
+            <div class="container">
+                <h2>Projetos em Destaque</h2>
+                <div class="carousel">
+                    <div class="carousel-slide active">
+                        <div class="carousel-content">
+                            <div class="carousel-img" style="background-image: url('img/destaque1.jpg');"></div>
+                            <div class="carousel-text">
+                                <h3>Residência Auguste</h3>
+                                <p>Projeto residencial contemporâneo com integração de espaços internos e externos, priorizando iluminação natural e materiais sustentáveis.</p>
+                                <a href="#" class="btn-secondary">Ver Projeto Completo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="carousel-content">
+                            <div class="carousel-img" style="background-image: url('img/destaque2.jpg');"></div>
+                            <div class="carousel-text">
+                                <h3>Comercial Magnette</h3>
+                                <p>Ambiente corporativo que inspira produtividade e bem-estar, com espaços colaborativos e privativos em equilíbrio harmonioso.</p>
+                                <a href="#" class="btn-secondary">Ver Projeto Completo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="carousel-content">
+                            <div class="carousel-img" style="background-image: url('img/destaque3.jpg');"></div>
+                            <div class="carousel-text">
+                                <h3>Café Urban</h3>
+                                <p>Espaço aconchegante com identidade visual forte, que combina elementos rústicos e industriais criando uma experiência única para os clientes.</p>
+                                <a href="#" class="btn-secondary">Ver Projeto Completo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="carousel-next"><i class="fas fa-chevron-right"></i></button>
+                    <div class="carousel-dots"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer (o mesmo de index.html) -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Gabrieli Rizzi</h3>
+                    <p>Arquitetura e Interiores</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-envelope"></i> gabrielirizzi.arq@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> (XX) XXXXX-XXXX</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Gabrieli Rizzi Arquitetura. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/projetos.js"></script>
+</body>
+</html>
