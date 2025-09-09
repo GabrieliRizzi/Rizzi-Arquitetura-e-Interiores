@@ -391,6 +391,9 @@ footer {
     flex: 1;
     height: 500px;
     background-color: var(--marrom-claro);
+    background-image: url('../img/perfil-gabrieli.jpg');
+    background-size: cover;
+    background-position: center;
     border-radius: 8px;
 }
 
