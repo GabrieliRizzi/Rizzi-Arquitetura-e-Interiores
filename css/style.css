@@ -548,3 +548,128 @@ footer {
         width: 100%;
     }
 }
+
+/* Adicionar ao style.css */
+
+/* Serviços */
+.servicos {
+    padding: 5rem 0;
+}
+
+.servicos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+}
+
+.servico-item {
+    padding: 2.5rem;
+    background-color: var(--branco);
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+}
+
+.servico-item:hover {
+    transform: translateY(-10px);
+}
+
+.servico-icon {
+    font-size: 2.5rem;
+    color: var(--verde);
+    margin-bottom: 1.5rem;
+}
+
+.servico-item h3 {
+    color: var(--marrom);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.servico-item p {
+    margin-bottom: 1.5rem;
+    color: var(--cinza);
+}
+
+.servico-item ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.servico-item li {
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.servico-item li::before {
+    content: "•";
+    color: var(--verde);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Processo */
+.processo {
+    padding: 5rem 0;
+    background-color: var(--cinza-claro);
+}
+
+.processo h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--marrom);
+    margin-bottom: 3rem;
+}
+
+.processo-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.processo-step {
+    text-align: center;
+    padding: 2rem;
+}
+
+.step-number {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--marrom);
+    color: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 auto 1.5rem;
+}
+
+.processo-step h3 {
+    color: var(--marrom);
+    margin-bottom: 1rem;
+}
+
+/* CTA Serviços */
+.cta-servicos {
+    padding: 5rem 0;
+    background-color: var(--marrom);
+    color: var(--branco);
+    text-align: center;
+}
+
+.cta-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
