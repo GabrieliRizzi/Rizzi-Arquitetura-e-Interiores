@@ -903,3 +903,117 @@ footer {
         min-height: 250px;
     }
 }
+
+/* Adicionar ao style.css */
+
+/* Contato */
+.contato {
+    padding: 5rem 0;
+}
+
+.contato-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.contato-info h2 {
+    color: var(--marrom);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.contato-info > p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.info-item i {
+    font-size: 1.5rem;
+    color: var(--verde);
+    margin-top: 0.3rem;
+}
+
+.info-item h3 {
+    color: var(--marrom);
+    margin-bottom: 0.3rem;
+    font-size: 1.2rem;
+}
+
+.contato-info .social-icons {
+    margin-top: 2rem;
+}
+
+.contato-form h2 {
+    color: var(--marrom);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--preto);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--verde);
+    box-shadow: 0 0 0 2px rgba(46, 139, 87, 0.2);
+}
+
+/* Mapa */
+.mapa {
+    padding: 0 0 5rem;
+}
+
+.mapa h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--marrom);
+    margin-bottom: 3rem;
+}
+
+.mapa-container {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsividade para contato */
+@media screen and (max-width: 992px) {
+    .contato-content {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+}
