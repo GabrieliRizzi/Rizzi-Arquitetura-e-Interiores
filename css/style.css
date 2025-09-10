@@ -236,11 +236,15 @@ h1, h2, h3, h4, h5 {
     font-size: 1.1rem;
 }
 
-.sobre-img {
+.sobre-imagem-perfil {
     flex: 1;
-    height: 400px;
+    height: 500px;
     background-color: var(--marrom-claro);
+    background-image: url('../img/foto-sobre.jpg');
+    background-size: cover;
+    background-position: center;
     border-radius: 8px;
+}
 }
 
 /* Footer */
